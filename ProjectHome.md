@@ -1,0 +1,5 @@
+This project investigates the idea of building flexible workers in real-time strategy video games using AI planning techniques. In the "Smart Workers RTS" demo the workers take into account the state of their surroundings (e.g., considering available structures) and search for ways to achieve simple goals by means of executing a sequence of actions.
+
+In this way the behavior of the workers goes beyond the execution of simple commands like simply moving to a target position or building a structure. For instance, the user may command an agent to produce food supplies. Reaching this goal may involve for instance getting weapons for hunting or finding a resource that can be used to produce a supply ration, etc.
+
+The mini-game is built on Unity game engine (www.unity3d.com) in which also some basic state-space search methods for solving STRIPS planning problems are implemented and evaluated.
